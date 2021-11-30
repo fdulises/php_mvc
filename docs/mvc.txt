@@ -1,0 +1,13 @@
+## MVC
+
+0) Sistema routing
+0.2) Middleware
+1) Controlador
+	-Comunicar modelo con la vista
+2) Modelo
+	-Logica de Gestion de datos
+	-Validar/sanitizar datos
+3) Vista
+	3.2) Presentador
+	-Presentar la UI
+	-Mandar datos de la UI al controlador

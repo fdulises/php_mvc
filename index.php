@@ -11,9 +11,10 @@ spl_autoload_register(function($classname){
     
     $classname = explode("\\", $classname);
     
-    $file = realpath( __DIR__ . "/{$classname[0]}/{$classname[array_key_last($classname)]}.php" );
+    $file = realpath(
+        __DIR__ . "/{$classname[0]}/{$classname[array_key_last($classname)]}.php" 
+    );
     
-
     if( file_exists($file) ) require $file;
 });
 
